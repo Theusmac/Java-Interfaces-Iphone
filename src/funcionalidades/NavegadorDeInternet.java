@@ -1,15 +1,8 @@
 package funcionalidades;
 
-public class NavegadorDeInternet {
-    public void NavegadorDeInternet {
-        protected void exibirPagina(){
-            System.out.println("Exibindo página");
-        }
-        protected void adicionarNovaAba(){
-            System.out.println("Nova aba adicionada");
-        }
-        protected void atualizarPagina(){
-            System.out.println("Página atualizada");
-        }
-    }
+public interface NavegadorDeInternet {
+    public void exibirPagina();
+    public void adicionarNovaAba();
+    public void atualizarPagina();
+    
 }

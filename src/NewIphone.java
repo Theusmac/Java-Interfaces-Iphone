@@ -1,9 +1,12 @@
+import funcionalidades.IphoneFuncoes;
 public class NewIphone {
-    public static void main(String[] args) throws Exception {
-        ReprodutorMusicial();
+    public static void main(String[] args) throws Exception{
+        IphoneFuncoes Iphone = new IphoneFuncoes();
 
-        AparelhoTelefônico();
+        Iphone.tocar();
 
-        NavegadorDeInternet();
+        Iphone.ligar();
+
+        Iphone.exibirPagina();
     }
 }
